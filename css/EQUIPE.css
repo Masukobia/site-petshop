@@ -1,0 +1,57 @@
+html {box-sizing: border-box;
+}
+body {font-family: 'Garet', sans-serif;
+}
+
+.titulo {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin-left: 18%;
+}
+
+.grid img {
+    overflow: hidden;
+    border-radius: 10%;
+    width: 250px;
+
+}
+
+
+.celula {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.rodapesimbolos {
+    display: inline;
+    position: fixed;
+    margin-left: 48%;
+}
+
+
+.celula {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.celula img {
+    transition: transform .5s ease;
+
+}
+
+.celula:hover img {
+    transform: scale(1.1);
+
+}
+
+.celula:hover p{
+    font-size: 110%;
+}

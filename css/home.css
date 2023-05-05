@@ -1,0 +1,85 @@
+@import url(http://fonts.cdnfonts.com/css.garet);
+.body {
+    
+    font-family: 'Garet', sans-serif; 
+}
+.section1 {
+    display: block;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+}
+.titulo{
+    font-size: 21pt;
+    font-weight: bolder;
+}
+.margem_top{
+    margin-top: 50px;
+}
+.fonte_media {
+    font-size: large;
+}
+.section3{
+    display: block;    
+}
+.section5{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E36B00;
+}
+.flex-contender{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffc107;
+}
+.alinha_centro{
+    text-align: center;
+}
+.cor_laranja{
+    color: orange;
+}
+.cor_branca{
+    color: white;
+}
+.tamanho_slide{
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    
+}
+.img_tamanho{
+    max-width: 90%;
+    max-height: 90%;
+}
+.mapa{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 770px) {
+    .section1 {
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 10%;
+    }
+    .titulo{
+        font-size: 35pt;
+        font-weight: bolder;
+    }
+    .fonte_media {
+    font-size: x-large;
+}
+    .flex-contender{
+        flex-flow: row nowrap;
+    }
+    .tamanho_slide{
+        height: 500px;
+    }
+    .mapa{
+        max-height: 90%;
+        max-width: 90%;
+    }
+}

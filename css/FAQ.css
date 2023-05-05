@@ -1,0 +1,30 @@
+body {
+    font-family: 'Garet', sans-serif;
+    font-size: larger;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.grid{
+display: grid; 
+grid-template-columns: 1fr 1fr 1fr;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.celula{
+    text-align: center;
+}
+
+.celula:hover{
+    background-color:rgb(245, 241, 220);
+    font-size: 120%;
+}
+
+.rodapesimbolos {
+    display: inline;
+    position: fixed;
+    margin-left: 48%;
+}

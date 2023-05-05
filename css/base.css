@@ -1,0 +1,63 @@
+@import url(http://fonts.cdnfonts.com/css.garet);
+.body {
+    
+    font-family: 'Garet', sans-serif; 
+}
+.section1 {
+    display: block;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+}
+.section3{
+    display: block;    
+}
+.section5{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E36B00;
+}
+.titulo{
+    font-size: 21pt;
+    font-weight: bolder;
+}
+.fonte_media {
+    font-size: large;
+}
+.margem_top{
+    margin-top: 50px;
+}
+.alinha_centro{
+    text-align: center;
+}
+.flex-contender{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cor_laranja{
+    color: #ffa500;
+}
+.cor_branca{
+    color: white;
+}
+@media (min-width: 770px) {
+    .section1 {
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 10%;
+    }
+    .titulo{
+        font-size: 35pt;
+        font-weight: bolder;
+    }
+    .fonte_media {
+    font-size: x-large;
+}
+    .flex-contender{
+        flex-flow: row nowrap;
+    }
+    
+}

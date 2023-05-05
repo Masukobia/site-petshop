@@ -1,0 +1,15 @@
+.body {
+    @import url(http://fonts.cdnfonts.com/css.garet); 
+    font-family: 'Garet', sans-serif; 
+}
+.h1_sobre{
+    text-align: center;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 25%;
+}
+@media(min-width: 770px){
+    .h1_sobre{
+        width: 700px;
+    }
+}    
